@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import HandyJSON
+
+class CoinData: HandyJSON {
+    var btc: SingleData?
+    var eth: SingleData?
+    var dpom: SingleData?
+    var list: [SingleData]?
+    
+    required init() {}
+}
